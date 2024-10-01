@@ -1,0 +1,37 @@
+.nav_logo {
+  border-radius: 50%;
+  border-width: 0;
+  border-style: solid;
+  box-sizing: border-box;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+}
+
+.Touch {
+  a {
+    display: inline-block;
+    padding: 12px 24px;
+    min-width: 44px;
+    min-height: 44px;
+  }
+}
+@media (min-width: 1024px) {
+  .nav_logo {
+    margin-left: 7rem;
+  }
+  .stack_btns {
+    margin-right: 6rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  .nav_logo {
+    margin-left: 1rem;
+  }
+  .stack_btns {
+    margin-right: 1rem;
+  }
+}

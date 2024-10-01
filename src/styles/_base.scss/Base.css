@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+.title_portfolio {
+  font-family: "SUSE", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  font-size: 5rem;
+  line-height: 1.1;
+  letter-spacing: -0.06em;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.title_technologie {
+  font-family: "SUSE", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  font-size: 5rem;
+  line-height: 1.1;
+  letter-spacing: -0.06em;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .title_technologie {
+    font-size: 3rem;
+  }
+}/*# sourceMappingURL=Base.css.map */

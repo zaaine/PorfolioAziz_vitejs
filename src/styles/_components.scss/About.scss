@@ -1,0 +1,33 @@
+@import "../_mixins.scss/Mixins.scss";
+
+.about_container {
+  @include flex-center;
+  flex-direction: column;
+  margin: 6rem 4rem 4rem 4rem;
+  width: 90%;
+
+  .about_title {
+    @include title-h2;
+    width: 100%;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  p {
+    font-size: large;
+    width: 100%;
+    text-align: justify;
+
+    .about_link {
+      color: blue;
+      font-size: x-large;
+    }
+    .about_link:hover {
+      text-decoration: underline;
+      margin-top: 1rem;
+      padding: 0 5px;
+    }
+  }
+}

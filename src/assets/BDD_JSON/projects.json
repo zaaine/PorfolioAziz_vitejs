@@ -1,0 +1,84 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Bookie",
+      "description": "Proposer des locations immobilières pour la ville de Marseille.",
+      "image": "Bookie.webp",
+      "languages": ["HTML", "CSS"],
+      "Link_Git": "https://github.com/zaaine/Booki_projet"
+    },
+    {
+      "id": 2,
+      "name": "Oh My Food",
+      "description": "Commander en ligne dans des prestigieux restaurants parisiens.",
+      "image": "OhMyFood.webp",
+      "languages": ["HTML", "SASS"],
+      "Link_Git": "https://github.com/zaaine/Ohmyfood-zaaine"
+    },
+    {
+      "id": 3,
+      "name": "Kasa",
+      "description": "Louer votre appartement entre étudiants.",
+      "image": "Kasa.webp",
+      "languages": ["React", "SASS"],
+      "Link_Git": "https://github.com/zaaine/Kasa_FR"
+    },
+    {
+      "id": 4,
+      "name": "ArgentBank",
+      "description": "L'application bancaire sécurisée pour vos transactions financières.",
+      "image": "ArgentBank.webp",
+      "languages": ["HTML", "CSS", "React", "API"],
+      "Link_Git": "https://github.com/zaaine/ArgentBank-website"
+    },
+    {
+      "id": 5,
+      "name": "Ninna Carducci",
+      "description": "Travailler au reférencement SEO d'un site de photographe freelance .",
+      "image": "ninnaCarducci.webp",
+      "languages": ["HTML", "CSS"],
+      "Link_Git": "https://github.com/zaaine/NinaCarducci---Photographe.git"
+    },
+    {
+      "id": 6,
+      "name": "Yummy Nouilles",
+      "description": "Commander en ligne et promouvoir les restautants de la chaine Yummy Nouilles.",
+      "image": "YummyNouilles.webp",
+      "languages": ["HTML", "SASS"],
+      "Link_Git": "https://github.com/zaaine/Yummy-Nouilles.git"
+    },
+    {
+      "id": 7,
+      "name": "Sophie Bluel",
+      "description": "Création d'une page web dynamique permettant à une architecte de publier ses travaux.",
+      "image": "sophieBluel.webp",
+      "languages": ["HTML", "CSS", "Javascript", "API network"],
+      "Link_Git": "https://github.com/zaaine/Portfolio-architecte-sophie-bluel.git"
+    },
+    {
+      "id": 8,
+      "name": "Riding Cities",
+      "description": "Mise à jour d'un site pour une association sportive qui promeut le skate.",
+      "image": "ridingCities.webp",
+      "languages": ["HTML", "CSS"],
+      "Link_Git": "https://github.com/zaaine/Yummy-Nouilles.git"
+    },
+    {
+      "id": 9,
+      "name": "Print IT",
+      "description": "Création d'un carrousel dynamique sur un site existant et amélioration SEO",
+      "image": "printIt.webp",
+      "languages": ["HTML", "CSS", "Javascript"],
+      "Link_Git": "https://github.com/zaaine/Print.IT-JS_zaaine.git"
+    },
+    {
+      "id": 10,
+      "name": "724 Events",
+      "description": "Débogage d'un site evenementiel à travers la réalisation de tests unitaires et end-to-end.",
+      "image": "724events.webp",
+      "languages": ["React", "React Testing Library"],
+      "Link_Git": "https://github.com/zaaine/724Events.git"
+    }
+  ]
+}

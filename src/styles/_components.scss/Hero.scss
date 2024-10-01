@@ -1,0 +1,124 @@
+@import "../_variables.scss/Variables.scss";
+
+.hero_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 11rem;
+  height: auto;
+  width: 80%;
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .hero_image {
+    border-radius: 50%;
+    border-style: none;
+    height: 30rem;
+    max-width: 70%;
+    position: relative;
+    top: 2rem;
+  }
+}
+
+.hero_texts {
+  display: flex;
+  flex-direction: column;
+
+  .hero_title {
+    font-size: 2.6rem;
+    margin-bottom: 0.5rem;
+  }
+  .hero_subtitle {
+    margin-bottom: 1.4rem;
+    font-size: 1.5rem;
+    font-style: oblique;
+  }
+  .hero_text {
+    margin-bottom: 1.4rem;
+    font-size: larger;
+  }
+
+  .hero_button {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.hero_links {
+  display: flex;
+  gap: 4rem;
+  cursor: pointer;
+  a {
+    font-size: xxx-large;
+    padding: 2rem;
+  }
+  :hover {
+    color: deeppink;
+  }
+}
+
+@media (max-width: $layout-breakpoint-medium) {
+  .hero_container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: auto;
+    gap: 4rem;
+    text-align: justify;
+    margin: 6rem 1rem;
+    width: 95%;
+    .hero_image {
+      height: 25rem;
+      min-width: 50%;
+    }
+  }
+
+  .hero_button {
+    margin-top: 1rem;
+    justify-content: center !important ;
+  }
+  .hero_links {
+    justify-content: space-around;
+    gap: 0;
+  }
+  a {
+    font-size: x-large;
+    padding: 1rem;
+  }
+}
+@media (max-width: $layout-breakpoint-small) {
+  .hero_image {
+    height: 16rem !important;
+    width: 13rem !important;
+  }
+  .hero_text .hero_subtitle {
+    font-size: auto;
+    p {
+      margin-bottom: 1.4rem;
+      font-size: larger;
+      line-height: 1.5rem;
+      text-align: justify;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .hero_links {
+    a {
+      font-size: large;
+      padding: 0rem;
+    }
+  }
+}
+
+// @media (min-width: 2000px) {
+//   .hero_texts {
+//     position: relative;
+//     top: 23rem;
+//   }
+// }

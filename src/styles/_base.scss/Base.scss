@@ -1,0 +1,20 @@
+@import "../_mixins.scss/Mixins.scss";
+
+// Titles
+.title_portfolio {
+  @include title-h2;
+  @include flex-center;
+  margin-top: 4rem;
+}
+
+.title_technologie {
+  @include title-h2;
+  @include flex-center;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .title_technologie {
+    font-size: 3rem;
+  }
+}
