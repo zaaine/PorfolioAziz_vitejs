@@ -118,7 +118,7 @@
       "livraison": "Le site 724 Events a été stabilisé grâce à l'identification et à la correction des principaux bugs, améliorant ainsi l'expérience utilisateur globale. La mise en place de tests unitaires et end-to-end a permis de garantir la fiabilité des fonctionnalités critiques, réduisant significativement le risque de dysfonctionnements. De plus, l'optimisation du code a rendu le site plus performant et plus facile à maintenir, facilitant ainsi les futures mises à jour et extensions. Les tests automatisés ont également accéléré le processus de développement en permettant des déploiements plus sûrs et plus fréquents.",
       "landscape": "724events_landscape.webp",
       "screenshot": "724events_screen.webp",
-      "link_projet": "",
+      "link_projet": "https://724events.portfolio.zaaine.com",
       "Link_Git": "https://github.com/zaaine/724Events.git"
     }
   ]
